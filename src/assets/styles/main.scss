@@ -1,0 +1,20 @@
+// Setup
+@import "setup/variables.scss";
+// @import "setup/functions.scss";
+@import "setup/mixins.scss";
+// @import "setup/typography.scss";
+
+// Basics
+@import "basics/helpers.scss";
+@import "basics/layout.scss";
+@import "basics/base.scss";
+// @import "basics/buttons.scss";
+
+// Components
+@import "cmps/app-footer.scss";
+@import "cmps/app-header.scss";
+@import "cmps/pad-preview.scss";
+@import "cmps/pad-list.scss";
+
+// Pages
+@import "pages/home-page.scss";
