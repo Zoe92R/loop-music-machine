@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/loop-music-machine/static/css/main.be00a09e.chunk.css",
+    "main.js": "/loop-music-machine/static/js/main.870a7db6.chunk.js",
+    "main.js.map": "/loop-music-machine/static/js/main.870a7db6.chunk.js.map",
+    "runtime-main.js": "/loop-music-machine/static/js/runtime-main.2dd058bb.js",
+    "runtime-main.js.map": "/loop-music-machine/static/js/runtime-main.2dd058bb.js.map",
+    "static/js/2.d809a725.chunk.js": "/loop-music-machine/static/js/2.d809a725.chunk.js",
+    "static/js/2.d809a725.chunk.js.map": "/loop-music-machine/static/js/2.d809a725.chunk.js.map",
+    "static/js/3.f6dc1358.chunk.js": "/loop-music-machine/static/js/3.f6dc1358.chunk.js",
+    "static/js/3.f6dc1358.chunk.js.map": "/loop-music-machine/static/js/3.f6dc1358.chunk.js.map",
+    "index.html": "/loop-music-machine/index.html",
+    "static/css/main.be00a09e.chunk.css.map": "/loop-music-machine/static/css/main.be00a09e.chunk.css.map",
+    "static/js/2.d809a725.chunk.js.LICENSE.txt": "/loop-music-machine/static/js/2.d809a725.chunk.js.LICENSE.txt",
+    "static/media/1.5eb417fc.mp3": "/loop-music-machine/static/media/1.5eb417fc.mp3",
+    "static/media/2.37c82282.mp3": "/loop-music-machine/static/media/2.37c82282.mp3",
+    "static/media/3.52c24c81.mp3": "/loop-music-machine/static/media/3.52c24c81.mp3",
+    "static/media/4.230fcab8.mp3": "/loop-music-machine/static/media/4.230fcab8.mp3",
+    "static/media/5.27bdc145.mp3": "/loop-music-machine/static/media/5.27bdc145.mp3",
+    "static/media/6.3e1411b4.mp3": "/loop-music-machine/static/media/6.3e1411b4.mp3",
+    "static/media/7.2d08c654.mp3": "/loop-music-machine/static/media/7.2d08c654.mp3",
+    "static/media/8.f77c6da4.mp3": "/loop-music-machine/static/media/8.f77c6da4.mp3",
+    "static/media/9.f2d668af.mp3": "/loop-music-machine/static/media/9.f2d668af.mp3"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2dd058bb.js",
+    "static/js/2.d809a725.chunk.js",
+    "static/css/main.be00a09e.chunk.css",
+    "static/js/main.870a7db6.chunk.js"
+  ]
+}
