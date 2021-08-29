@@ -21,8 +21,7 @@ export function loadPad(padId) {
     return async dispatch => {
         try {
             dispatch({ type: 'LOADING_START' })
-            const pad = await padService.getPadById(padId) // get by id in the service
-            // console.log( 'pad in load pad action',pad)
+            const pad = await padService.getPadById(padId) /
             dispatch({ type: 'SET_PAD', pad })
         } catch (err) {
             console.log('padActions: err in load pad', err)
@@ -43,19 +42,9 @@ export function resetPad() {
     }
 }
 
-export function removePad(padId) {
-    return async dispatch => {
-        try {
-            await padService.remove(padId)
-            dispatch({ type: 'REMOVE_PAD', padId })
-        } catch (err) {
-            console.log('padActions: err in removePad', err)
-        }
-    }
-}
 
 export function savePad(pad) {
-    // console.log('save pad in pad.action')
+    console.log('save pad in pad.action')
     const type = pad._id ? 'UPDATE_PAD' : 'ADD_PAD'
     return async dispatch => {
         try {

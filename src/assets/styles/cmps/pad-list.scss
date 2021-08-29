@@ -1,7 +1,13 @@
 .pad-list {
-    .grid-list{
+    .grid-list {
         grid-template-columns: repeat(3, 1fr);
         justify-items: center;
-        grid-gap: 20px;
+        grid-gap: 30px;
+    }
+
+    @media (max-width: $mobile-breakpoint) {
+        .grid-list{
+            grid-gap: 10px;
+        }
     }
 }

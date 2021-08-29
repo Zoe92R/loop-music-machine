@@ -1,6 +1,5 @@
 const initialState = {
     pads: [],
-    currPad: null
 }
 
 export function padReducer(state = initialState, action) {
@@ -11,12 +10,8 @@ export function padReducer(state = initialState, action) {
             return { ...state, currPad: action.pad }
         case 'RESET_PAD':
             return { ...state, currPad: null }
-        case 'ADD_PAD':
-            return { ...state, pads: [action.pad, ...state.pads] }
         case 'UPDATE_PAD':
             return { ...state, pads: [action.pad, ...state.pads.filter(pad => action.pad._id !== pad._id)] }
-        case 'REMOVE_PAD':
-            return { ...state, pads: state.pads.filter(pad => pad._id !== action.padId) }
         default:
             return state
     }

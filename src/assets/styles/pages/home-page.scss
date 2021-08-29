@@ -1,5 +1,30 @@
 .home-page {
-    .add-new {
-        margin-bottom: 10px;
+    h1{
+        text-align: center;
+        margin-top: 50px;
+        word-break: break-all;
+    }
+    .btns {
+        margin-top: 50px;
+    }
+    
+    .svg-btn {
+        font-size: 90px;
+        color: #d1c9e4;
+        cursor: pointer;
+        &:hover {
+            color: #907ac3;
+        }
+    }
+}
+
+@media (max-width: $mobile-breakpoint) {
+    .home-page {
+        .svg-btn {
+            font-size: 50px;
+        }
+        .btns {
+            margin-top: 30px;
+        }
     }
 }

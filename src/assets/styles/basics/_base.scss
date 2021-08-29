@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    // font-family: Cereal-light;
     user-select: none;
 }
 
@@ -11,7 +10,7 @@ html {
 
 body {
     margin: 0;
-    // color: $fontDefColor;
+    background-color: #f8f8f8;
 }
 
 img {
@@ -27,12 +26,15 @@ h5,
 h6,
 p {
     font-weight: normal;
-    line-height: 1;
+    line-height: 1.4;
+    font-family: Arial, sans-serif;
     margin: 0 0 0.6em;
+    color: #5e5e5e;
 }
 button {
     cursor: pointer;
-    width: fit-content;
+    border: none;
+    background: none;
 }
 ul {
     list-style-type: none;
